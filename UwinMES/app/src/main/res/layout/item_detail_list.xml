@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_item_category"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/text_3AAFD9"
+        android:gravity="center"
+        android:paddingLeft="@dimen/margin_left"
+        android:text="Title"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/text_4BB7DD"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_left"
+        android:text="Title"
+        android:textColor="@color/text_00668C"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llayout_group_table"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_list_item"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_left"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_theme_size" />
+
+        <TextView
+            android:id="@+id/tv_item_units"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_theme_size" />
+
+        <ImageView
+            android:id="@+id/iv_item_duigou"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_duigou"
+            android:textColor="@color/text_app_theme"
+            android:textSize="@dimen/text_lable_size" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_4BB7DD"/>
+
+</LinearLayout>

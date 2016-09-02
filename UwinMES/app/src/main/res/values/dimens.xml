@@ -1,0 +1,67 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- LMW -->
+    <dimen name="dimen_7sp">7sp</dimen>
+    <dimen name="dimen_8sp">8sp</dimen>
+    <dimen name="dimen_9sp">9sp</dimen>
+    <dimen name="dimen_10sp">10sp</dimen>
+    <dimen name="dimen_11sp">11sp</dimen>
+    <dimen name="dimen_12sp">12sp</dimen>
+    <dimen name="dimen_13sp">13sp</dimen>
+    <dimen name="dimen_14sp">14sp</dimen>
+    <dimen name="dimen_15sp">15sp</dimen>
+    <dimen name="dimen_16sp">16sp</dimen>
+    <dimen name="dimen_17sp">17sp</dimen>
+    <dimen name="dimen_18sp">18sp</dimen>
+    <dimen name="dimen_19sp">19sp</dimen>
+    <dimen name="dimen_20sp">20sp</dimen>
+    <dimen name="dimen_21sp">21sp</dimen>
+    <dimen name="dimen_22sp">22sp</dimen>
+    <dimen name="dimen_23sp">23sp</dimen>
+    <dimen name="dimen_24sp">24sp</dimen>
+    <dimen name="txtsize_display1">34sp</dimen>
+    <dimen name="txtsize_headline">24sp</dimen>
+    <dimen name="txtsize_title">20sp</dimen>
+    <dimen name="txtsize_subhead">16sp</dimen>
+    <dimen name="txtsize_body">14sp</dimen>
+    <dimen name="txtsize_caption">12sp</dimen>
+    <dimen name="distance_10">10dp</dimen>
+
+    <!-- 全局  行高 - 左右边距 - 行距 -->
+
+    <dimen name="two_row_height">64dp</dimen>
+    <dimen name="row_height">50dp</dimen>
+    <dimen name="margin_left">16dp</dimen>
+    <dimen name="margin_right">16dp</dimen>
+    <dimen name="margin_right_large">30dp</dimen>
+    <dimen name="row_height_space">10dp</dimen>
+
+    <!--TextView缩进-->
+    <dimen name="padding_text">5dp</dimen>
+    <!--EditView缩进-->
+    <dimen name="padding_edit">5dp</dimen>
+    <!--距离上方-->
+    <dimen name="height_top">10dp</dimen>
+
+    <!--标题栏高度-->
+    <dimen name="title_height">70sp</dimen>
+    <!--Itme高度-->
+    <dimen name="height_list_item">80dp</dimen>
+    <!--edt字体大小-->
+    <dimen name="text_edt_hint">16sp</dimen>
+
+    <!--Tab高度-->
+    <dimen name="height_tab_pager">38dp</dimen>
+    <dimen name="height_tab_pager_two">44dp</dimen>
+
+    <!--文字大小-->
+    <dimen name="text_title_size">20sp</dimen>
+    <dimen name="text_title_lable">18sp</dimen>
+    <dimen name="text_lable_size_large">20sp</dimen>
+    <dimen name="text_lable_size_n">18sp</dimen>
+    <dimen name="text_lable_size">16sp</dimen>
+    <dimen name="text_theme_size">16sp</dimen>
+</resources>

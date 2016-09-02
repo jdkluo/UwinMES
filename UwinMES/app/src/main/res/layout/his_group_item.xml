@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_group_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/app_bg_color"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="Title"
+        android:textColor="@color/color_red"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llayout_group_table"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_list_item"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_group_indicator"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_me_arrow"
+            android:textColor="@color/text_app_theme"
+            android:textSize="@dimen/text_lable_size" />
+
+        <TextView
+            android:id="@+id/tv_group_department"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="部门"
+            android:textColor="@color/text_app_theme"
+            android:textSize="@dimen/text_theme_size" />
+
+        <TextView
+            android:id="@+id/tv_group_production_line"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="生产线"
+            android:textColor="@color/text_app_theme"
+            android:textSize="@dimen/text_theme_size" />
+
+        <TextView
+            android:id="@+id/tv_group_serial_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="流程卡号"
+            android:textColor="@color/text_app_theme"
+            android:textSize="@dimen/text_theme_size" />
+
+        <TextView
+            android:id="@+id/tv_group_inventory_coding"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="存货编码"
+            android:textColor="@color/text_app_theme"
+            android:textSize="@dimen/text_theme_size" />
+
+        <TextView
+            android:id="@+id/tv_group_inventory_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="存货名称"
+            android:textColor="@color/text_app_theme"
+            android:textSize="@dimen/text_theme_size" />
+
+        <TextView
+            android:id="@+id/tv_group_specifications"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="规格型号"
+            android:textColor="@color/text_app_theme"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:visibility="gone"
+            android:textSize="@dimen/text_theme_size" />
+
+        <TextView
+            android:id="@+id/tv_group_process"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="工序"
+            android:textColor="@color/text_app_theme"
+            android:textSize="@dimen/text_theme_size" />
+
+        <TextView
+            android:id="@+id/tv_group_quantity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="报检数量"
+            android:textColor="@color/text_app_theme"
+            android:textSize="@dimen/text_theme_size" />
+
+        <TextView
+            android:id="@+id/tv_group_units"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="单位"
+            android:textColor="@color/text_app_theme"
+            android:textSize="@dimen/text_theme_size" />
+
+        <TextView
+            android:id="@+id/tv_group_entering"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/color_bg_title"
+            android:text="录入"
+            android:textSize="@dimen/text_lable_size" />
+    </LinearLayout>
+
+</LinearLayout>

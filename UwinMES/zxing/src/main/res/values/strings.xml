@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Zxing</string>
+    <string name="main_app_name">UWinMES+</string>
+
+    <!--二维码-->
+    <string name="msg_camera_framework_bug">Sorry, 相机启动失败，请检查是否对应用禁用了相机权限！.</string>
+    <string name="button_ok">OK</string>
+    <string name="viewfinderview_status_text1">将二维码/条码放入取景框内,即可自动扫描</string>
+</resources>

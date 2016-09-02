@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标题栏高度-->
+    <dimen name="title_height">70sp</dimen>
+    <!--Itme高度-->
+    <dimen name="height_list_item">80dp</dimen>
+    <!--edt字体大小-->
+    <dimen name="text_edt_hint">16sp</dimen>
+
+    <!--Tab高度-->
+    <dimen name="height_tab_pager">38dp</dimen>
+    <dimen name="height_tab_pager_two">44dp</dimen>
+
+    <!--文字大小-->
+    <dimen name="text_title_size">20sp</dimen>
+    <dimen name="text_title_lable">18sp</dimen>
+    <dimen name="text_lable_size_large">20sp</dimen>
+    <dimen name="text_lable_size_n">18sp</dimen>
+    <dimen name="text_lable_size">16sp</dimen>
+    <dimen name="text_theme_size">16sp</dimen>
+</resources>

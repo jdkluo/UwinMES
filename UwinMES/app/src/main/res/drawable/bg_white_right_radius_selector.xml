@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 默认时的背景图片 -->
+    <item android:drawable="@drawable/bg_white_right_radius" android:state_window_focused="false"/>
+
+    <!-- 点击时的背景图片 -->
+    <item android:drawable="@drawable/bg_white_right_radius_pressed" android:state_pressed="true"/>
+
+</selector>

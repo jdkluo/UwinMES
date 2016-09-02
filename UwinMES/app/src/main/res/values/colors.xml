@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3bafda</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#3bafda</color>
+
+    <!-- app风格颜色(蓝色) 3194F6-->
+    <color name="app_color">#3bafda</color>
+    <!-- app风格颜色  -->
+    <color name="app_color96">#963bafda</color>
+    <!--app风格浅蓝色-->
+    <color name="color_58bbe0">#58bbe0</color>
+    <!--app风格浅蓝色-->
+    <color name="color_eff9fd">#eff9fd</color>
+    <!--红色-->
+    <color name="color_red">#da4747</color>
+    <!-- app页面背景色-->
+    <color name="app_bg_color">#f0f2f5</color>
+    <!-- Title背景颜色 -->
+    <color name="color_bg_title">#3bafda</color>
+
+    <!--深蓝色字体颜色-->
+    <color name="text_00668C">#00668C</color>
+    <color name="text_4BB7DD">#4BB7DD</color>
+    <color name="text_3AAFD9">#2E9CC4</color>
+    <!-- color_hint风格颜色 -->
+    <color name="text_hint">#D4D4D4</color>
+    <!-- app风格字体颜色(黑色) -->
+    <color name="text_app_theme">#333333</color>
+    <!-- 灰色字颜色 -->
+    <color name="text_gray">#999999</color>
+    <!-- 黑色字颜色 -->
+    <color name="text_black">#000000</color>
+    <!--深灰色字体-->
+    <color name="text_darkgray">#565656</color>
+    <!-- 金额字体颜色 -->
+    <color name="text_money">#F65354</color>
+
+    <!-- LMW 分割线 -->
+    <color name="division_wire">#ededed</color>
+    <!-- TAB默认颜色 -->
+    <color name="tab_unselect">#ffffff</color>
+    <!-- TAB选择颜色 -->
+    <color name="tab_selected">#ff0194e4</color>
+
+    <color name="gray_line">#b3b3b3</color>red
+    <!--对话框红色-->
+    <color name="dialog_red">#da4747</color>
+    <!-- 对话框半透明红色  -->
+    <color name="dialog_red_transparent">#96da4747</color>
+    <!-- 对话框蓝色-->
+    <color name="dialog_blue">#3bafda</color>
+    <!-- 对话框半透明蓝色  -->
+    <color name="dialog_blue_transparent">#963bafda</color>
+    <!--点击时波纹颜色-->
+    <color name="btn_ripple">#8021272B</color>
+
+
+
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 半透明白色 -->
+    <color name="white_lucency">#11ffffff</color>
+    <!-- 点击时背景 -->
+    <color name="white_pressed">#80ffffff</color>
+    <!-- 3b -->
+    <color name="text_3b">#3B3B3B</color>
+    <!-- 暗绿色 -->
+    <color name="blue">#4698f1</color>
+
+    <color name="transparent_background_button">#11000000</color>
+    <color name="transparent_background">#00000000</color>
+
+    <!--全透明 #0000-->
+    <color name="color_0000">#0000</color>
+    <!--8%透明（黑色） #1100-->
+    <color name="color_1100">#1100</color>
+    <!--10%透明（黑色） #1600-->
+    <color name="color_1600">#1600</color>
+    <!--20%透明（黑色） #3200-->
+    <color name="color_3200">#3200</color>
+    <!--30%透明（黑色） #4800-->
+    <color name="color_4800">#4800</color>
+    <!--40%透明（黑色） #6400-->
+    <color name="color_6400">#6400</color>
+    <!--50%透明（黑色） #8000-->
+    <color name="color_8000">#8000</color>
+    <!--60%透明（黑色） #9600-->
+    <color name="color_9600">#9600</color>
+    <!--70%透明（黑色） #B200-->
+    <color name="color_B200">#B200</color>
+    <!--80%透明（黑色） #C800-->
+    <color name="color_C800">#C800</color>
+    <!--90%透明（黑色） #E400-->
+    <color name="color_E400">#E400</color>
+    <!--不透明（黑色） #F000-->
+    <color name="color_F000">#F000</color>
+
+
+    <!--全透明（白色） #0000-->
+    <color name="color_00FF">#00FFFFFF</color>
+    <!--10%透明（白色） #1600-->
+    <color name="color_16FF">#16FFFFFF</color>
+    <!--20%透明（白色） #3200-->
+    <color name="color_32FF">#32FFFFFF</color>
+    <!--30%透明（白色） #4800-->
+    <color name="color_48FF">#48FFFFFF</color>
+    <!--40%透明（白色） #6400-->
+    <color name="color_64FF">#64FFFFFF</color>
+    <!--50%透明（白色） #8000-->
+    <color name="color_80FF">#80FFFFFF</color>
+    <!--60%透明（白色） #9600-->
+    <color name="color_96FF">#96FFFFFF</color>
+    <!--70%透明（白色） #B200-->
+    <color name="color_B2FF">#B2FFFFFF</color>
+    <!--80%透明（白色） #C800-->
+    <color name="color_C8FF">#C8FFFFFF</color>
+    <!--90%透明（白色） #E400-->
+    <color name="color_E4FF">#E4FFFFFF</color>
+    <!--不透明（白色） #F000-->
+    <color name="color_F0FF">#F0FFFFFF</color>
+
+</resources>

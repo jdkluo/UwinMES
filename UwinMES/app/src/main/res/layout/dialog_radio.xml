@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog"
+        android:minWidth="260dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/color_eff9fd"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_left"
+                android:paddingRight="@dimen/margin_left"
+                android:text="title"
+                android:textColor="@color/text_00668C"
+                android:textSize="@dimen/dimen_18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="100dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <Button
+                android:id="@+id/btn_dialog1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_list_item"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_white_selector"
+                android:gravity="center"
+                android:text="首检"
+                android:textColor="@color/text_00668C"
+                android:textSize="14sp" />
+
+            <View style="@style/halving_line_crosswise" />
+
+            <Button
+                android:id="@+id/btn_dialog2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_list_item"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_white_selector"
+                android:gravity="center"
+                android:text="巡检"
+                android:textColor="@color/text_00668C"
+                android:textSize="14sp" />
+
+            <View style="@style/halving_line_crosswise" />
+
+            <Button
+                android:id="@+id/btn_dialog3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_list_item"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_white_selector"
+                android:gravity="center"
+                android:text="完工检"
+                android:textColor="@color/text_00668C"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
